@@ -1,1 +1,3 @@
 # Latent-Vector-Optimization-Based-Generative-Image-Steganography-for-Consumer-Electronic-Applications
+
+This repository implements Latent Vector Optimization (LVO) for image steganography, embedding secret messages into the latent space of a deep autoencoder. The approach balances data capacity, image quality, and security by adaptively selecting latent regions for message hiding. It supports multiple payloads (0.1 to 5 bits per pixel) and evaluates performance using metrics like PSNR, FID, and steganalysis resistance estimates. The code includes improved reconstruction through perceptual loss and noise reduction, enabling effective and flexible steganographic embedding. This provides a foundation for further research and practical applications in secure data hiding.
